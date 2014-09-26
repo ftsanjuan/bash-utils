@@ -12,7 +12,7 @@ bash-utils also provides a handy way of organizing bash **aliases** (shortcut co
 
 1. Clone this repo to wherever you want on your machine.
 
-	`git clone git@bitbucket.org:ftsanjuan/bash-utils.git /path/to/bash-utils`	
+	`git clone https://github.com/ftsanjuan/bash-utils.git /path/to/bash-utils`	
 
 
 2. Add a line to your *.bash-profile
