@@ -15,7 +15,7 @@ bash-utils also provides a handy way of organizing bash **aliases** (shortcut co
 	`git clone https://github.com/ftsanjuan/bash-utils.git /path/to/bash-utils`	
 
 
-2. Add a line to your *.bash-profile
+2. Add this line to the end of your **.bash-profile** (typically found in **~/.bash_profile**):
 
 	`source /path/to/bash-utils/bash-utils.sh`
 
