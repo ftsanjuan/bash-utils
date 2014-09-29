@@ -7,15 +7,23 @@
 # and plugins
 
 # ------------------------------------
+# Config
+# ------------------------------------
+
+# Set the path to your bash-utils installation
+export BU_ROOT="$HOME/bash-utils"
+
+
+# ------------------------------------
 # Load em up...
 # ------------------------------------
 
 # load aliases
-for alias in $(pwd)/aliases/*.aliases.sh; do
+for alias in $BU_ROOT/aliases/*.aliases.sh; do
   source $alias
 done
 
 # load plugins
-for plugin in $(pwd)/plugins/**/*.plugin.sh; do
+for plugin in $BU_ROOT/plugins/**/*.plugin.sh; do
   source $plugin
 done

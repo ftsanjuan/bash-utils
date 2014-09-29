@@ -10,17 +10,21 @@ bash-utils also provides a handy way of organizing bash **aliases** (shortcut co
 
 # Installation
 
-1. Clone this repo to wherever you want on your machine.
+1. Clone this repo to wherever you want on your machine. Recommended path: your $HOME folder.
 
 	`git clone https://github.com/ftsanjuan/bash-utils.git /path/to/bash-utils`	
 
+2.  If you cloned the repo to somewhere other than your $HOME folder, edit the BU_ROOT variable in bash-utils.sh to update to the path your bash-utils installation.  
 
-2. Add this line to the end of your **.bash-profile** (typically found in **~/.bash_profile**):
+	`export BU_ROOT="/path/to/bash-utils`
+ 
+
+3.  Add this line to the end of your **.bash-profile** (typically found in **~/.bash_profile**):
 
 	`source /path/to/bash-utils/bash-utils.sh`
 
 
-3. Done.
+4. Done.
 
 
 # Customization
