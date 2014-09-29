@@ -25,6 +25,13 @@ function fendswith() {
 }
 
 # ------------------------------------
+# File/Directory listing
+# ------------------------------------
+
+# List directory contents with details
+alias lsla="ls -la"
+
+# ------------------------------------
 # File/Folder utilities
 # ------------------------------------
 
@@ -35,3 +42,6 @@ function fendswith() {
 function linkthis() {
   ln -s $(pwd) $1
 }
+
+# quick symlink
+alias lns="ln -s"
