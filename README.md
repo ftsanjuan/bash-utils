@@ -36,12 +36,12 @@ bash-utils also provides a handy way of organizing bash **aliases** (shortcut co
 
 ## Adding a new aliases file
 
-bash-utils looks for and loads all files ending with **.aliases.sh** in **/bash-utils/aliases**.  To add a new aliases file
+bash-utils looks for and loads all files ending with **.aliases.sh** in **bash-utils/aliases**.  To add a new aliases file
 
 1.  Create a new file ending with `.alias.sh` (ex. `my-new-aliases.aliases.sh`)
 
 
-2.  Save it to the **/bash-utils/aliases** folder
+2.  Save it to the **bash-utils/aliases** folder
 
 
 3.  Reload your **.bash_profile** running:
@@ -52,9 +52,9 @@ bash-utils looks for and loads all files ending with **.aliases.sh** in **/bash-
 
 ## Adding a new plugin file
 
-bash-utils looks for and loads all files ending with **.plugin.sh** in **/bash-utils/plugins**.  To add a new plugins file
+bash-utils looks for and loads all files ending with **.plugin.sh** in **bash-utils/plugins**.  To add a new plugins file
 
-1.  Create a new folder for your plugin in **/bash-utils/plugins** folder.
+1.  Create a new folder for your plugin in **bash-utils/plugins** folder.
 
 	**NOTE: Although this is not strictly required, it is highly recommended for the sake of avoiding the clutter that got you here in the first place!**
 
@@ -64,7 +64,7 @@ bash-utils looks for and loads all files ending with **.plugin.sh** in **/bash-u
 	(ex. `my-new-plugin.plugin.sh`)
 
 
-3.  Save it to the **/bash-utils/plugins** folder (or the folder within **/bash-utils/plugins** which you created in Step 1)
+3.  Save it to the **bash-utils/plugins** folder (or the folder within **bash-utils/plugins** which you created in Step 1)
 
 
 4.  Reload your **.bash_profile** running:
