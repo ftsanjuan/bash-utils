@@ -14,6 +14,19 @@ function findprocess() {
   ps aux | grep $1
 }
 
+# Kills a specified process
+#
+# @param
+#    id of process to be terminated
+#
+function killr () {
+  if [ -n "$1" ]; then
+    kill -9 "$1"
+  else
+    echo "Please enter a process id to terminate"
+  fi
+}
+
 # ------------------------------------
 # Logging
 # ------------------------------------
