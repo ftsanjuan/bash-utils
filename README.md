@@ -24,7 +24,11 @@ bash-utils also provides a handy way of organizing bash **aliases** (shortcut co
 	`source /path/to/bash-utils/bash-utils.sh`
 
 
-4. Done.
+4. Reload your **.bash_profile** running:
+	
+	`. ~/.bash_profile` or `bashrl` (if you have the **quick-edit.aliases.sh** file included in your bash-utils installation)
+	
+5. Done.
 
 
 # Customization
@@ -40,7 +44,11 @@ bash-utils looks for and loads all files ending with **.aliases.sh** in **/bash-
 2.  Save it to the **/bash-utils/aliases** folder
 
 
-3.  Done.
+3.  Reload your **.bash_profile** running:
+	
+	`. ~/.bash_profile` or `bashrl`
+
+4.  Done.
 
 ## Adding a new plugin file
 
@@ -59,4 +67,9 @@ bash-utils looks for and loads all files ending with **.plugin.sh** in **/bash-u
 3.  Save it to the **/bash-utils/plugins** folder (or the folder within **/bash-utils/plugins** which you created in Step 1)
 
 
-4.  Done.
+4.  Reload your **.bash_profile** running:
+	
+	`. ~/.bash_profile` or `bashrl` 
+
+
+5.  Done.
