@@ -20,6 +20,9 @@ alias bk="cd -"
 
 # Searches for files from the current folder (recursive) based
 # on a supplied ending
+#
+# @param  ending
+#   the ending searched for
 function fendswith() {
   find . -type f -name \*$1
 }
@@ -35,6 +38,9 @@ alias lsla="ls -la"
 # File/Folder utilities
 # ------------------------------------
 
+# quick symlink
+alias lns="ln -s"
+
 # Symlinks the current folder to the path specified
 #
 # @param path
@@ -43,5 +49,13 @@ function linkthis() {
   ln -s $(pwd) $1
 }
 
-# quick symlink
-alias lns="ln -s"
+# symlinks a file/folder in the current path to
+# to the path specified
+#
+# @param  source
+#   the file/folder being symlinked
+# @param  target path
+#   the path to the symlink
+function linkf() {
+  ln -s $(pwd)/$1 $2
+}
